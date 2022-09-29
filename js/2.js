@@ -35,7 +35,7 @@ function startTime()
                 mm=checkTime(mm);
 
                 ss=checkTime(ss);
-                document.getElementById('nowDateTime').innerHTML=MM+"-"+dd
+                // document.getElementById('nowDateTime').innerHTML=MM+"-"+dd
                 document.getElementById('nowDateTimeSpan').innerHTML=hh+":"+mm+":"+ss+"."+vv;
 
                 setTimeout('startTime()',3);//每一秒中重新加载startTime()方法
@@ -62,7 +62,7 @@ function startTime()
 		var mm = prompt("请输入你的学号","学号");
 		if(name!='aaaa'){
 			x=document.getElementById("demo");  //查找元素
-			var a="出校：学生："+name+'<br>-'+mm+"，<br>白名单验证通过，该申请离校扫码1次，离校码只能使用一次，请不要重复打开"
+			var a="学生："+name+'<br>-'+mm+"，<br>白名单验证通过，该申请离校扫码1次，离校码只能使用一次，请不要重复打开"
 			x.innerHTML=a;    //改变内容
 		}
         
