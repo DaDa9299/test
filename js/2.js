@@ -62,7 +62,7 @@ function startTime()
 		var mm = prompt("请输入你的学号","学号");
 		if(name!='aaaa'){
 			x=document.getElementById("demo");  //查找元素
-			var a="学生："+name+'<br>-'+mm+"，<br>白名单验证通过，该申请离校扫码1次，离校码只能使用一次，请不要重复打开"
+			var a=name+'&nbsp;&nbsp;'+mm
 			x.innerHTML=a;    //改变内容
 		}
         
