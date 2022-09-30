@@ -62,7 +62,7 @@ function startTime()
 		var mm = prompt("请输入你的学号","学号");
 		if(name!='aaaa'){
 			x=document.getElementById("demo");  //查找元素
-			var a=name+'&nbsp;&nbsp;'+mm
+			var a=name+'-'+mm
 			x.innerHTML=a;    //改变内容
 		}
         
